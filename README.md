@@ -2,22 +2,27 @@
 
 ## Questions (10 Points Possible)
 1. What would happen if you try to use a variable that is not in scope?
+The variable would show up as null or in other words the Non-exiting in the program.
+2. Describe the three A(s) of a test:  
+A - Arrange  This is the first A. We use Arrange to lay out the preparation of what we expect our test to such as creating a new variable. Also could be the 1st step of a <= 2 step program. 
 
-2. Describe the three As of a test:  
-A -   
-A -   
-A -   
+A - Act  This is the second A. The Act is the portoin of our test that we plan the determine the outcome of. Also could be any thats not the 1st step of a <= 2 step program and may even be contained in the Assert under the proper circumstances.
+
+A - Assert  This is the final A. Assert is the line of code we use to output our test to the main Console/Program. The Assert will always be at the bottom of each test code block.
 
 3. What is the difference between `public` and `private` access modifiers?
+A public access modifier Is accessable through out all class Vs a Private access modifier only allows for you to look with in the same class it is assigned.
 
 4. A method should:  (**Select all that apply**) <br/>
-(A) Make changes to an object  
-(B) Return some information about an object  
-(C) Make changes to an object and return information about the object.  
-(D) None of the Above.  
+(A) Make changes to an object  <<<<<<<<
+(B) Return some information about an object  <<<<<<<<<<<
+(C) Make changes to an object and return information about the object.  X
+(D) None of the Above.  X
 
+^^^^^^^^^^^^^^^^(X = NO, <<<<<<<<< = YES)^^^^^^^^^^^^^
 
 5. How did you determine what to answer for the question above?
+I looked back at my notes and I relized that between query Methods and command Methods. Query can tippaclly returns something witch directly alines with (B) and elimates (D). Commands more often then not will change something This alines with (A). My resoning for believing (C) is incorrect Because during our Refaactoring lesson we disscused the a good method SHOULD only contain ether a query method OR a command method but nevr both in 1.
 
 ## Exercise (10 Points Possible)
 
